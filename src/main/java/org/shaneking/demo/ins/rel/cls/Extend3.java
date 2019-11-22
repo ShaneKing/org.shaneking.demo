@@ -1,4 +1,4 @@
 package org.shaneking.demo.ins.rel.cls;
 
-public class Parent {
+public class Extend3 extends Extend2 {
 }
