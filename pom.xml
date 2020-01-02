@@ -10,13 +10,13 @@
     <relativePath>../org.shaneking</relativePath>
   </parent>
 
-  <artifactId>org.shaneking.demo</artifactId>
+  <artifactId>org.shaneking.demo.ins.rel.cls</artifactId>
   <version>${project.parent.version}</version>
   <packaging>jar</packaging>
 
-  <name>Demo for ShaneKing</name>
-  <description>Demo For ShaneKing</description>
-  <url>https://github.com/ShaneKing/org.shaneking.demo</url>
+  <name>Instance Relation Class Demo for ShaneKing</name>
+  <description>Instance Relation Class Demo For ShaneKing</description>
+  <url>https://github.com/ShaneKing/org.shaneking.demo.ins.rel.cls</url>
   <inceptionYear>2011-2019</inceptionYear>
 
   <organization>
@@ -66,17 +66,17 @@
   </contributors>
 
   <scm>
-    <connection>scm:git:git@github.com:ShaneKing/org.shaneking.demo.git</connection>
-    <developerConnection>scm:git:git@github.com:ShaneKing/org.shaneking.demo.git</developerConnection>
-    <url>git@github.com:ShaneKing/org.shaneking.demo.git</url>
+    <connection>scm:git:git@github.com:ShaneKing/org.shaneking.demo.ins.rel.cls.git</connection>
+    <developerConnection>scm:git:git@github.com:ShaneKing/org.shaneking.demo.ins.rel.cls.git</developerConnection>
+    <url>git@github.com:ShaneKing/org.shaneking.demo.ins.rel.cls.git</url>
   </scm>
   <issueManagement>
     <system>Github</system>
-    <url>https://github.com/ShaneKing/org.shaneking.demo/issues</url>
+    <url>https://github.com/ShaneKing/org.shaneking.demo.ins.rel.cls/issues</url>
   </issueManagement>
   <ciManagement>
     <system>Travis-CI</system>
-    <url>https://travis-ci.org/ShaneKing/org.shaneking.demo</url>
+    <url>https://travis-ci.org/ShaneKing/org.shaneking.demo.ins.rel.cls</url>
   </ciManagement>
 
   <dependencies>
