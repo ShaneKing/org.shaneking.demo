@@ -7,7 +7,6 @@ import org.shaneking.demo.ins.rel.cls.Extend2;
 import org.shaneking.demo.ins.rel.cls.Extend3;
 
 public class ExtendTest {
-
   @Test
   public void instanceOf33() {
     Assert.assertEquals(true, new Extend3() instanceof Extend3);
@@ -53,7 +52,6 @@ public class ExtendTest {
     Assert.assertEquals(true, new Extend1() instanceof Extend1);
   }
 
-
   @Test
   public void isInstance33() {
     Assert.assertEquals(true, new Extend3() instanceof Extend3);
@@ -98,7 +96,6 @@ public class ExtendTest {
   public void isInstance11() {
     Assert.assertEquals(true, new Extend1() instanceof Extend1);
   }
-
 
   @Test
   public void isAssignableFrom33() {

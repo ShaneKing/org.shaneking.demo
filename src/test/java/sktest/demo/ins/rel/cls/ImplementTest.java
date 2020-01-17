@@ -8,7 +8,6 @@ import org.shaneking.demo.ins.rel.cls.Implement3;
 import org.shaneking.demo.ins.rel.cls.Implement4;
 
 public class ImplementTest {
-
   @Test
   public void instanceOf44() {
     Assert.assertEquals(true, new Implement4() instanceof Implement4);
@@ -49,7 +48,6 @@ public class ImplementTest {
     Assert.assertEquals(true, new Implement3() instanceof Implement1);
   }
 
-
   @Test
   public void isInstance44() {
     Assert.assertEquals(true, new Implement4() instanceof Implement4);
@@ -59,7 +57,6 @@ public class ImplementTest {
   public void isInstance43() {
     Assert.assertEquals(false, new Implement3() instanceof Implement4);
   }
-
 
   @Test
   public void isInstance34() {
@@ -90,7 +87,6 @@ public class ImplementTest {
   public void isInstance13() {
     Assert.assertEquals(true, new Implement3() instanceof Implement1);
   }
-
 
   @Test
   public void isAssignableFrom44() {
