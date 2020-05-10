@@ -5,8 +5,9 @@ import org.junit.Test;
 import org.shaneking.demo.ins.rel.cls.Extend1;
 import org.shaneking.demo.ins.rel.cls.Extend2;
 import org.shaneking.demo.ins.rel.cls.Extend3;
+import org.shaneking.test.SKUnit;
 
-public class ExtendTest {
+public class ExtendTest extends SKUnit {
   @Test
   public void instanceOf33() {
     Assert.assertEquals(true, new Extend3() instanceof Extend3);

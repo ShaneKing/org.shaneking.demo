@@ -6,8 +6,9 @@ import org.shaneking.demo.ins.rel.cls.Implement1;
 import org.shaneking.demo.ins.rel.cls.Implement2;
 import org.shaneking.demo.ins.rel.cls.Implement3;
 import org.shaneking.demo.ins.rel.cls.Implement4;
+import org.shaneking.test.SKUnit;
 
-public class ImplementTest {
+public class ImplementTest extends SKUnit {
   @Test
   public void instanceOf44() {
     Assert.assertEquals(true, new Implement4() instanceof Implement4);
