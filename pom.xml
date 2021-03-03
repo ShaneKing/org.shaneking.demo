@@ -4,25 +4,19 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.shaneking</groupId>
-    <artifactId>org.shaneking</artifactId>
-    <version>0.13.3</version>
-    <relativePath>../org.shaneking</relativePath>
+    <groupId>org.shaneking.ling</groupId>
+    <artifactId>org.shaneking.ling</artifactId>
+    <version>0.241.1.1</version>
   </parent>
 
+  <groupId>org.shaneking.blog</groupId>
   <artifactId>org.shaneking.demo.ins.rel.cls</artifactId>
-  <version>${project.parent.version}</version>
+  <version>0.0.1</version>
   <packaging>jar</packaging>
 
-  <name>Instance Relation Class Demo for ShaneKing</name>
+  <name>org.shaneking.demo.ins.rel.cls</name>
   <description>Instance Relation Class Demo For ShaneKing</description>
   <url>https://github.com/ShaneKing/org.shaneking.demo.ins.rel.cls</url>
-  <inceptionYear>2011-2020</inceptionYear>
-
-  <organization>
-    <name>Azolla</name>
-    <url>https://github.com/Azolla</url>
-  </organization>
   <licenses>
     <license>
       <name>Apache-2.0</name>
@@ -31,82 +25,19 @@
       <comments>ShaneKing is released under Apache-2.0 License.</comments>
     </license>
   </licenses>
-  <developers>
-    <developer>
-      <id>ShaneKing</id>
-      <name>ShaneKing</name>
-      <email>github@azolla.org</email>
-      <url>https://github.com/ShaneKing</url>
-      <organization>Azolla</organization>
-      <organizationUrl>https://github.com/Azolla</organizationUrl>
-      <roles>
-        <role>Developer</role>
-      </roles>
-      <timezone>+8</timezone>
-      <properties>
-        <dept>No</dept>
-      </properties>
-    </developer>
-  </developers>
-  <contributors>
-    <contributor>
-      <name>Maogu</name>
-      <email>git@azolla.org</email>
-      <url>https://github.com/Maogu</url>
-      <organization>Azolla</organization>
-      <organizationUrl>https://github.com/Azolla</organizationUrl>
-      <roles>
-        <role>Developer</role>
-      </roles>
-      <timezone>+8</timezone>
-      <properties>
-        <dept>No</dept>
-      </properties>
-    </contributor>
-  </contributors>
-
-  <scm>
-    <connection>scm:git:git@github.com:ShaneKing/org.shaneking.demo.ins.rel.cls.git</connection>
-    <developerConnection>scm:git:git@github.com:ShaneKing/org.shaneking.demo.ins.rel.cls.git</developerConnection>
-    <url>git@github.com:ShaneKing/org.shaneking.demo.ins.rel.cls.git</url>
-  </scm>
-  <issueManagement>
-    <system>Github</system>
-    <url>https://github.com/ShaneKing/org.shaneking.demo.ins.rel.cls/issues</url>
-  </issueManagement>
-  <ciManagement>
-    <system>Travis-CI</system>
-    <url>https://travis-ci.org/ShaneKing/org.shaneking.demo.ins.rel.cls</url>
-  </ciManagement>
 
   <dependencies>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <scope>test</scope>
+      <groupId>org.shaneking.ling</groupId>
+      <artifactId>org.shaneking.ling.zero</artifactId>
+      <version>${project.parent.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.shaneking</groupId>
-      <artifactId>org.shaneking.test</artifactId>
+      <groupId>org.shaneking.ling</groupId>
+      <artifactId>org.shaneking.ling.test</artifactId>
       <version>${project.parent.version}</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-      </plugin>
-      <plugin>
-        <groupId>org.jacoco</groupId>
-        <artifactId>jacoco-maven-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </build>
 
 </project>
